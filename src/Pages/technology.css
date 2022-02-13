@@ -1,0 +1,65 @@
+.t-navbar-text {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+    opacity: 0.7;
+}
+
+.technology-main-container {
+    display: flex;
+    margin-top: 70px;
+}
+
+.tech-numbers {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.tech-number {
+    font-family: Bellefair;
+    font-size: 2.5rem;
+    
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 40px;
+    
+    display: grid;
+    place-content: center;
+
+    border-radius: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    transition: all 0.2s;
+}
+
+.tech-number:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.tech-number-active {
+    background-color: white;
+    color: black;
+    transition: all 0.2s;
+}
+
+.tech-main-text {
+    flex: 5;
+}
+
+.tech-image-container {
+    flex: 3;
+}
+
+.t-ht {
+    font-size: 3.8rem;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.tech-image {
+    height: 60vh;
+    position: absolute;
+    right: 0;
+    transform: translateY(-10%)
+}

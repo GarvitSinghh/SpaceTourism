@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Barlow+Condensed:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Barlow:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Bellefair:regular);
+
+
+.home-container {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 25vh 10vw;
+}
+
+.home-text {
+    flex: 1;
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 0.3rem;
+
+    font-size: 1.5rem;
+}
+
+.heading-text {
+    text-transform: uppercase;
+
+
+    font-family: Bellefair;
+    font-size: 10rem;
+
+    margin-top: 25px;
+    margin-left: -10px;
+}
+
+.descriptive-text {
+    font-family: Barlow;
+
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    color: white;
+}
+
+.home-btn {
+    flex: 1;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.explore-btn {
+
+    font-size: 2rem;
+    font-family: Bellefair;
+
+    background-color: #FFFFFF;
+    color: #0B0D17;
+
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+
+    height: 16.5rem;
+    width: 16.5rem;
+
+    transform: translateY(15%);
+
+    border-radius: 100%;
+
+    transition: all 0.2s;
+
+}
+
+
+.explore-btn:hover {
+    cursor: pointer;
+    /* opacity: 0.9; */
+    background-color: #ddd;
+    box-shadow: 1px 1px 20px #222;
+}
+
+.explore-btn:active {
+    transform: scale(0.99) translateY(15%);
+}

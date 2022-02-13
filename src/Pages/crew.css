@@ -1,0 +1,68 @@
+.crew-main-container {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    display: flex;
+}
+
+.cmc-left {
+    flex: 1;
+}
+
+.cmc-right {
+    flex: 1;
+}
+
+.c-ht {
+    font-size: 3.8rem;
+    margin-bottom: 20px;
+}
+
+.c-ht2 {
+    font-size: 2.5rem;
+    font-family: Bellefair;
+    opacity: 0.5;
+    margin-top: 80px;
+    margin-bottom: -20px;
+}
+
+
+.oval-container {
+    position: absolute;
+    bottom: 70px;
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.oval {
+    background-color: white;
+    opacity: 0.2;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    transition: all 0.2s;
+}
+
+.oval:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.oval-active {
+    opacity: 1 !important;
+}
+
+.crew-image {
+    height: 80vh;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+
+.tech-image {
+    position: absolute;
+    right: 0;
+}
